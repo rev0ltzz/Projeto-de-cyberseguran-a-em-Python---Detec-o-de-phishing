@@ -1,58 +1,30 @@
-# Phishing Detector
+# 🎣 Phishing Detector
 
-Projeto simples em **Python** desenvolvido para identificar possíveis tentativas de **phishing** através da análise de mensagens ou links suspeitos.
+## 📌 Description
 
-O script verifica padrões comuns utilizados em ataques de phishing, como **URLs suspeitas, encurtadores de links e palavras frequentemente utilizadas em campanhas de engenharia social**.
+A Python-based tool that detects potential phishing attempts through URL and pattern analysis.
 
-Este projeto foi desenvolvido com fins educacionais e para **prática de conceitos de cibersegurança voltados para Blue Team e SOC (Security Operations Center)**.
+## 🎯 Objective
 
----
+Demonstrate how phishing attacks can be identified using basic detection techniques.
 
-## Funcionalidades
+## ⚙️ How it works
 
-* Detecção de URLs potencialmente suspeitas
-* Identificação de padrões comuns em campanhas de phishing
-* Análise simples de mensagens ou links inseridos pelo usuário
-* Classificação básica de possíveis riscos
+* Analyzes URLs and patterns
+* Detects suspicious keywords and structures
+* Flags potential phishing attempts
 
----
+## ▶️ How to run
 
-## Tecnologias utilizadas
-
-* Python 3
-
----
-
-## Como executar
-
-1. Clone o repositório:
-
-```
-git clone https://github.com/seu-usuario/phishing-detector-python.git
+```bash
+python main.py
 ```
 
-2. Acesse a pasta do projeto:
+## 📊 Example Output
 
-```
-cd phishing-detector-python
-```
+Suspicious URL detected: secure-login-update.com
+Risk level: High
 
-3. Execute o script:
+## 🧠 Security Context
 
-```
-python phishing_detector.py
-```
-
-4. Insira a mensagem ou link suspeito quando solicitado pelo programa.
-
----
-
-## Objetivo do projeto
-
-O objetivo deste projeto é demonstrar, de forma simples, como scripts em Python podem auxiliar na **identificação de possíveis ataques de phishing**, contribuindo para estudos em **análise de ameaças, automação de segurança e monitoramento básico de indicadores suspeitos**.
-
----
-
-## Autor
-
-Henrique Buzzutti
+Represents how phishing detection can be automated and used to prevent social engineering attacks.
